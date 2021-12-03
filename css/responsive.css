@@ -1,0 +1,28 @@
+@media screen and (max-width: 568px) and (min-width:302px) {
+    .heed{
+        width: 100%;
+    }
+    header .heed{
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    header .navigation nav{
+        display: none;
+    }
+    header .navigation .menu-mobile {
+        display: block;
+    margin-top: 40px;
+    margin-right: 10px;
+    }
+    .container2 .srv-box{
+        margin-bottom: 40px;
+    }
+    
+    .foo{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+}
